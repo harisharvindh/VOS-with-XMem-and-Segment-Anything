@@ -6,10 +6,13 @@ Atkinson-Shiffrin Memory Model
 
 Our approach is grounded in the Atkinson-Shiffrin memory model, which includes sensory memory, short-term memory, and long-term memory. We leverage these concepts to enhance the stability and accuracy of object segmentation over time.
 
-![62cfaa3b1bc65a0fd1a475406797a1a7](https://github.com/harisharvindh/VOS-with-XMem-and-Segment-Anything/assets/63618217/83491d29-3633-40a0-9597-063eb2f90584)
+![62cfaa3b1bc65a0fd1a475406797a1a7](https://github.com/harisharvindh/VOS-with-XMem-and-Segment-Anything/assets/63618217/83491d29-3633-40a0-9597-063eb2f90584) 
+[https://blog.csdn.net/bevison/article/details/125986461]
 
 Segment Anything:
 "Segment Anything" is a technology developed by Facebook AI, aimed at improving the precision and flexibility of object segmentation in videos. It's particularly notable for its ability to handle a wide range of objects and scenarios, making it ideal for diverse applications such as augmented reality, video editing, and automated video analysis.
+
+This project combines both technologies to initially detect the target object and then perform masking for clear segregration instead of a bounding box used in traditional object detection algorithms. This masked object is then tracked throughout the video by using the prospects of XMem which loads the first frame of the video and stores it in memory.
 
 
 
